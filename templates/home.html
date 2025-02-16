@@ -1,0 +1,23 @@
+<!DOCTYP html>
+<html> 
+  <head>
+<title>Udupu</title>
+  </head>
+  <body>
+<h1>Indian Fashion</h1>
+    <img src="http://www.htmp.com/wp-content/uploads/2017/03/indian-fashion-1.jpg">
+  You will learn about indian fashion
+<p>
+
+  {% for fas in fashion %}
+  <div>
+    <h4>{{fas['title']}}</h4>
+  <div><b>Price:</b>{{fas['price']}}
+  </div>
+  {% endfor %}
+</p>
+    <p class="mt-4>Copyright 2025, Udupu</p>
+  </body>
+
+
+</html>
